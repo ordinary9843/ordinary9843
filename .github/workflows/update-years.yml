@@ -1,0 +1,31 @@
+name: Update years of experience
+
+on:
+  push:
+    branches:
+      - master
+  schedule:
+    - cron: '0 0 1 1 *'
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Calculate and update years
+        run: |
+          YEARS=$(( $(date +%Y) - 2017 ))
+          sed -i "s/[0-9]* years of professional/$YEARS years of professional/" README.md
+
+      - name: Commit if changed
+        run: |
+          git config user.name "Jerry Chen"
+          git config user.email "ordinary9843@gmail.com"
+          git diff --quiet README.md || (git add README.md && git commit -m "chore: update years of experience")
+          git push
