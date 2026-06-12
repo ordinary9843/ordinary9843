@@ -87,7 +87,7 @@
 (function initTyper() {
   const el = document.getElementById('typed-text');
   if (!el) return;
-  const words = ['Backend Engineer', 'NestJS Developer', 'Cloud Architect', 'Problem Solver'];
+  const words = ['Backend Engineer', 'NestJS Developer', 'Cloud Architect', 'Open to Work'];
   let wi = 0, ci = 0, del = false;
 
   function tick() {
