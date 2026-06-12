@@ -14,20 +14,11 @@
 
 ## Featured Project
 
-<a href="https://ordinary9843.github.io/gitizens/">
-  <img src="https://raw.githubusercontent.com/ordinary9843/gitizens/master/docs/banner.svg" alt="Gitizens — A civilization that lives inside a GitHub repo" width="100%"/>
-</a>
+[![Gitizens](https://raw.githubusercontent.com/ordinary9843/gitizens/master/docs/banner.svg)](https://ordinary9843.github.io/gitizens/)
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/ordinary9843/gitizens/master/docs/logo.png" alt="Gitizens" width="72"/><br/>
-  <b>Gitizens</b> — GitHub Issues are laws &nbsp;·&nbsp; Reactions are votes &nbsp;·&nbsp; World ticks every 2 hours<br/><br/>
-  <a href="https://github.com/ordinary9843/gitizens">ordinary9843/gitizens</a>
-  &nbsp;·&nbsp;
+  A civilization that lives inside a GitHub repo.<br/>
   <a href="https://ordinary9843.github.io/gitizens/">Live Dashboard</a>
+  &nbsp;·&nbsp;
+  <a href="https://github.com/ordinary9843/gitizens">ordinary9843/gitizens</a>
 </div>
-
-<br/>
-
-<a href="https://ordinary9843.github.io/gitizens/">
-  <img src="https://raw.githubusercontent.com/ordinary9843/gitizens/master/world/stats.svg" alt="Gitizens World Stats" width="100%"/>
-</a>
