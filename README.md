@@ -1,6 +1,6 @@
 # Hi, I'm Jerry Chen
 
-9 years of professional experience in backend development, with a focus on Node.js (NestJS) and PHP (Laravel) for high-availability services.
+9 years of backend engineering experience, skilled in software development, cloud architecture, and CI/CD workflows, with a focus on balancing system architecture to meet business goals. Translates product requirements into technical specifications, bridging PM and engineering teams; applies Claude Code to automate routine development work and focus on system design and architecture.
 
 ---
 
@@ -8,14 +8,10 @@
 
 [![Gitizens](https://raw.githubusercontent.com/ordinary9843/gitizens/master/docs/banner.svg)](https://ordinary9843.github.io/gitizens/)
 
-<div align="center">
-
 A civilization that lives inside a GitHub repo.
 
 [![Live Dashboard](https://img.shields.io/badge/Live_Dashboard-online-3fb950?style=flat-square&logo=github)](https://ordinary9843.github.io/gitizens/)
 [![Repository](https://img.shields.io/badge/Repository-ordinary9843%2Fgitizens-388bfd?style=flat-square&logo=github)](https://github.com/ordinary9843/gitizens)
-
-</div>
 
 ---
 
