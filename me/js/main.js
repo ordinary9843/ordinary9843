@@ -8,7 +8,7 @@
   let w, h, particles;
   const mouse = { x: -9999, y: -9999 };
   const COLOR = '0, 255, 178';
-  const COUNT = 65, SPEED = 0.35, LINK = 115;
+  const COUNT = 55, SPEED = 0.35, LINK = 115;
 
   function resize() {
     w = canvas.width  = canvas.offsetWidth;
@@ -72,13 +72,11 @@
     particles = Array.from({ length: COUNT }, mkParticle);
   });
 
-  const hero = document.getElementById('hero');
-  hero?.addEventListener('mousemove', e => {
-    const r = hero.getBoundingClientRect();
-    mouse.x = e.clientX - r.left;
-    mouse.y = e.clientY - r.top;
+  document.addEventListener('mousemove', e => {
+    mouse.x = e.clientX;
+    mouse.y = e.clientY;
   });
-  hero?.addEventListener('mouseleave', () => { mouse.x = -9999; mouse.y = -9999; });
+  document.addEventListener('mouseleave', () => { mouse.x = -9999; mouse.y = -9999; });
 })();
 
 /* ============================================================
