@@ -11,8 +11,8 @@
   const COUNT = 55, SPEED = 0.35, LINK = 115;
 
   function resize() {
-    w = canvas.width  = canvas.offsetWidth;
-    h = canvas.height = canvas.offsetHeight;
+    w = canvas.width  = window.innerWidth;
+    h = canvas.height = window.innerHeight;
   }
 
   function mkParticle() {

@@ -202,6 +202,9 @@ ul { list-style: none; }
 #particle-canvas {
   position: fixed;
   inset: 0;
+  display: block;
+  width: 100vw;
+  height: 100vh;
   z-index: 0;
   pointer-events: none;
   opacity: 0.28;
