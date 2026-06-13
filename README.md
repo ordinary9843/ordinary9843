@@ -2,6 +2,8 @@
 
 9 years of backend engineering experience, skilled in software development, cloud architecture, and CI/CD workflows, with a focus on balancing system architecture to meet business goals. Translates product requirements into technical specifications, bridging PM and engineering teams; applies Claude Code to automate routine development work and focus on system design and architecture.
 
+[![Portfolio](https://img.shields.io/badge/Portfolio-ordinary9843.github.io-00FFB2?style=flat-square&logo=googlechrome&logoColor=000)](https://ordinary9843.github.io/)
+
 ---
 
 ## Featured Project
